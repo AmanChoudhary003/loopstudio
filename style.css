@@ -1,0 +1,227 @@
+body {
+    margin-bottom: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.button-edit {
+    background-image: url("images/icon-close.svg");
+}
+
+.imageIcon {
+    background-image: url("images/icon-close.svg");
+}
+
+#container1 {
+    background-image: url("images/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    padding: 1rem 8rem;
+    color: white;
+    font-family: 'Alata', sans-serif;
+}
+
+.main1 {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    padding: 2rem;
+    padding-bottom: 2rem;
+    width: 60%;
+    height: 340px;
+    font-size: 4.5rem;
+    font-weight: 400;
+    border: solid white 4px;
+}
+
+#container2 {
+    position: relative;
+    padding: 6rem 8rem;
+    padding-top: 6rem;
+    padding-bottom: 9rem;
+}
+
+.vr {
+    width: 60%;
+}
+
+.main2 {
+    background-color: white;
+    width: 600px;
+    height: 350px;
+    padding: 3rem;
+    position: absolute;
+    z-index: 1;
+    left: 45%;
+    top: 38%;
+}
+
+.main2 h1 {
+    font-size: 3rem;
+    font-family: 'Alata', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.main2 p {
+    font-size: 0.9rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#container3 {
+    padding: 0.5rem 8rem;
+}
+
+.main3 {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.main3 h2 {
+    display: inline-block;
+}
+
+.optionButton,
+.optionButtonHide {
+    float: right;
+    margin-right: 15px;
+}
+
+.optionButtonHide {
+    margin-top: 2rem;
+}
+
+.col-lg img {
+    height: 400px;
+    margin-top: 2rem;
+}
+
+.col-lg {
+    position: relative;
+}
+
+.main4 .container {
+    padding: 0;
+    padding-bottom: 7rem;
+}
+
+.col-lg h3 {
+    color: white;
+    position: absolute;
+    bottom: 1rem;
+    left: 10%;
+    z-index: 2;
+    font-size: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#container4 {
+    background-color: black;
+    color: white;
+}
+
+.main5 {
+    padding: 3rem 8rem;
+}
+
+.main6 {
+    display: inline-block;
+}
+
+.main6 a {
+    color: white;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.main7 {
+    text-align: right;
+    float: right;
+}
+
+.main7 img {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.main7 h6 {
+    font-size: 0.7rem;
+}
+
+@media (max-width: 375px) {
+    body {
+        text-align: center;
+    }
+    #container1,
+    #container2,
+    #container3,
+    #container4 {
+        padding: 0;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #container1 {
+        text-align: left;
+        background-image: url("images/mobile/image-hero.jpg");
+        background-size: cover;
+        padding-bottom: 3.5rem;
+        margin-bottom: 0;
+    }
+    .main1 {
+        font-size: 2.5rem;
+        width: 320px;
+        height: 250px;
+    }
+    #container2 {
+        padding-top: 3rem;
+        height: 650px;
+        padding-bottom: 3rem;
+    }
+    .vr {
+        width: 320px;
+        margin-bottom: 2rem;
+    }
+    .main2 {
+        width: 300px;
+        position: static;
+        padding: 0;
+    }
+    .main2 h1 {
+        font-size: 2.5rem;
+    }
+    #container3 {
+        padding: 0.5rem;
+    }
+    .main3 h2 {
+        display: block;
+    }
+    .optionButton {
+        width: 10px;
+    }
+    .optionButton,
+    .optionButtonHide {
+        margin-right: 30%;
+    }
+    .main4 {
+        padding-top: 2rem;
+    }
+    .col-lg img {
+        height: 140px;
+    }
+    #container4 {
+        padding-top: 2rem;
+        line-height: 2;
+        height: 200px;
+    }
+    .main5 {
+        padding: 0;
+    }
+    .main6 {
+        display: block;
+    }
+    .main7 {
+        text-align: center;
+        margin-top: 1rem;
+        float: none;
+    }
+}
